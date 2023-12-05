@@ -1,0 +1,15 @@
+# Comandos en la carpeta:
+## karaf1
+sudo ./bin/karaf
+
+feature:install odl-restconf-all odl-openflowplugin-all odl-l2switch-all odl-mdsal-all odl-yangtools-common odl-dlux-all
+## karaf2
+
+systemctl start apache2
+
+sudo systemctl status apache2
+
+
+## mininet/custom
+
+sudo mn --custom ~/mininet/custom/prueba.py --totpo RedTelematica --mac --controller=remote,ip=127.0.0.1,port=6633 --switch ovs,protocols=OpenFlow13
