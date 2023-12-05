@@ -153,3 +153,8 @@ class RedTelematica(Topo):
         self.addLink(s22, h13)
         # Links host Sede Central
         self.addLink(s23, h10)
+        
+# Permite al archivo ser importado con `mn --custom <filename> --topo minimal`
+topos = {
+'RedTelematica': RedTelematica
+}
