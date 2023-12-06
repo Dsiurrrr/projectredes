@@ -14,4 +14,4 @@ sudo systemctl status apache2
 
 ## mininet/custom
 
-sudo mn --custom ~/mininet/custom/prueba.py --topo RedTelematica --mac --controller=remote,ip=127.0.0.1,port=6633 --switch ovs,protocols=OpenFlow13
+sudo mn --custom ~/mininet/custom/prueba4.py --topo RedTelematica --mac --controller=remote,ip=127.0.0.1,port=6633 --switch ovs,protocols=OpenFlow13
