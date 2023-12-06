@@ -105,4 +105,4 @@ class RedTelematica(Topo):
         # Links host Sede Central
         self.addLink(s23, h10)
 
-topos={'RedTelematica': RedTelematica}
+topos={"RedTelematica": RedTelematica}
