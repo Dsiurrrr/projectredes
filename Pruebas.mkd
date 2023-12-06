@@ -3,6 +3,8 @@
 sudo ./bin/karaf
 
 feature:install odl-restconf-all odl-openflowplugin-all odl-l2switch-all odl-mdsal-all odl-yangtools-common odl-dlux-all
+
+feature:install odl-restconf-all odl-openflowplugin-all odl-l2switch-all odl-mdsal-all odl-yangtools-common odl-dlux-core odl-dlux-node odl-dlux-yangui odl-dlux-yangvisualizer odl-dlux-all
 ## karaf2
 
 systemctl start apache2
